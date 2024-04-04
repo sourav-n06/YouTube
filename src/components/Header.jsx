@@ -24,7 +24,7 @@ const Header = () => {
 
         <div className=' col-span-10 flex justify-center '>
             <input className=" w-1/2 p-2  border border-gray-400 rounded-l-full" type='text'placeholder='Search'/>
-            <button className=' px-3 mr-3 border border-gray-400 rounded-r-full  hover:bg-slate-200'><img className='w-8' src={searchLogo}/></button>
+            <button className=' px-3 mr-3 bg-slate-100 border border-gray-400 rounded-r-full  hover:bg-slate-200'><img className='w-8' src={searchLogo}/></button>
             <div className=' bg-slate-100 flex items-center p-2 rounded-full cursor-pointer hover:bg-slate-200'>
               <img  className='size-7' src ={voiceLogo}/>
             </div>
